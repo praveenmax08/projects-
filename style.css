@@ -1,369 +1,346 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-image: url(christmas-background-empty-space-text-fir-tree-lights-cozy-atmosphere-holiday-background_1144595-9655.avif);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(christmas-background-empty-space-text-fir-tree-lights-cozy-atmosphere-holiday-background_1144595-9655.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.box {
-    width: 397px;
-    height: 503px;
-    /* background-color: rgb(255, 221, 48); */
-    border: 0px solid #b9663b;
-    position: absolute;
-    left: 470px;
-    bottom: 25px;
-    border-radius: 5%;
-    box-shadow: inset 0px 0px 20px 10px #bc6d44;
+.boxes {
+  width: 397px;
+  height: 503px;
+  backdrop-filter: blur(1px);
+  border: 0px solid #b9663b;
+  position: absolute;
+  left: 38%;
+  bottom: 60px;
+  border-radius: 5%;
+  box-shadow: inset 0px 0px 20px 10px #bc6d44;
+  z-index: 2;
 }
 
 h1 {
-    color: #ffffff;
-    position: absolute;
-    left: 54px;
-    font-size: 33px;
-    font-weight: 500;
-    top: 10px;
+  color: #ffffff;
+  position: absolute;
+  left: 54px;
+  font-size: 33px;
+  font-weight: 500;
+  top: 10px;
 }
 
 i {
-    /* background-image: url(Christmas-tree.webp);
+  /* background-image: url(Christmas-tree.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; */
-    position: absolute;
-    left: 300px;
-    font-size: 21px;
-    color: aquamarine;
-    top: 24px;
-    width: 30px;
-    height: 50px;
-    /* border-top-left-radius: 25%; */
-    /* border-top-right-radius: 25%; */
+  position: absolute;
+  left: 300px;
+  font-size: 21px;
+  color: aquamarine;
+  top: 24px;
+  width: 30px;
+  height: 50px;
+  /* border-top-left-radius: 25%; */
+  /* border-top-right-radius: 25%; */
 }
 
 #star {
-    position: absolute;
-    left: 307px;
-    font-size: 10px;
-    color: rgb(255, 255, 0);
-    top: 13px;
+  position: absolute;
+  left: 307px;
+  font-size: 10px;
+  color: rgb(255, 255, 0);
+  top: 13px;
 }
 
 #small {
-    position: absolute;
-    left: 307px;
-    font-size: 4px;
-    color: rgb(247, 247, 8);
-    top: 33px;
+  position: absolute;
+  left: 307px;
+  font-size: 4px;
+  color: rgb(247, 247, 8);
+  top: 33px;
 }
 
 #large {
-    position: absolute;
-    left: 313px;
-    font-size: 4px;
-    color: rgb(247, 247, 8);
-    top: 37px;
+  position: absolute;
+  left: 313px;
+  font-size: 4px;
+  color: rgb(247, 247, 8);
+  top: 37px;
 }
 
 #top {
-    position: absolute;
-    left: 311px;
-    font-size: 4px;
-    color: rgb(247, 247, 8);
-    top: 26px;
+  position: absolute;
+  left: 311px;
+  font-size: 4px;
+  color: rgb(247, 247, 8);
+  top: 26px;
 }
 
 p {
-    color: #ffffff;
-    position: absolute;
-    left: 85px;
-    font-size: 14px;
-    font-weight: 100;
-    top: 52px;
+  color: #ffffff;
+  position: absolute;
+  left: 85px;
+  font-size: 14px;
+  font-weight: 100;
+  top: 52px;
 }
 
 .move {
-    position: relative;
-    left: 3px;
-    top: 6px;
+  position: relative;
+  left: 3px;
+  top: 6px;
 }
 
 .toptriangle {
-    /* background-color: #67ff20; */
-    position: absolute;
-    top: 118px;
-    left: 135px;
-    width: 0px;
-    height: 0px;
-    border-left: 61px solid transparent;
-    border-right: 61px solid transparent;
-    border-bottom: 61px solid rgb(98, 255, 0);
+  /* background-color: #67ff20; */
+  position: absolute;
+  top: 118px;
+  left: 135px;
+  width: 0px;
+  height: 0px;
+  border-left: 61px solid transparent;
+  border-right: 61px solid transparent;
+  border-bottom: 61px solid rgb(98, 255, 0);
+  z-index: 3;
 }
 
 .centretriangle {
-    /* color: #6bff42; */
-    position: absolute;
-    top: 160px;
-    left: 134px;
-    width: 0px;
-    height: 0px;
-    border-left: 63px solid transparent;
-    border-right: 63px solid transparent;
-    border-bottom: 63px solid rgb(72, 255, 0);
+  /* color: #6bff42; */
+  position: absolute;
+  top: 160px;
+  left: 134px;
+  width: 0px;
+  height: 0px;
+  border-left: 63px solid transparent;
+  border-right: 63px solid transparent;
+  border-bottom: 63px solid rgb(57, 200, 0);
+  z-index: 2;
 }
 
 .lowertriangle {
-    position: absolute;
-    top: 204px;
-    left: 134px;
-    width: 0px;
-    height: 0px;
-    border-left: 64px solid transparent;
-    border-right: 64px solid transparent;
-    border-bottom: 64px solid rgb(50, 255, 0);
+  position: absolute;
+  top: 204px;
+  left: 134px;
+  width: 0px;
+  height: 0px;
+  border-left: 64px solid transparent;
+  border-right: 64px solid transparent;
+  border-bottom: 64px solid rgb(38, 189, 0);
+  z-index: 1;
 }
 
 #treestar {
-    position: absolute;
-    left: 188px;
-    font-size: 13px;
-    color: rgb(247, 247, 8);
-    top: 105px;
+  position: absolute;
+  left: 188px;
+  font-size: 13px;
+  color: rgb(247, 247, 8);
+  top: 105px;
 }
 
 .wood {
-    background-color: #b06868;
-    width: 22px;
-    height: 30px;
-    position: absolute;
-    left: 186px;
-    top: 268px;
-    border: 1px solid #b76262;
+  background-color:#714040;
+  width: 22px;
+  height: 30px;
+  position: absolute;
+  left: 186px;
+  top: 268px;
+  border: 1px solid #b76262;
 }
 
 .yellowbox {
-    width: 143px;
-    height: 100px;
-    position: absolute;
-    left: 32px;
-    top: 387px;
-    background-color: #ecec35;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+  width: 143px;
+  height: 100px;
+  position: absolute;
+  left: 32px;
+  top: 387px;
+  border-top: 1px solid #000000;
+  background-color: #ecec35;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  z-index: 1;
 }
 
 .topbox {
-    width: 159px;
-    height: 40px;
-    position: absolute;
-    left: 24px;
-    top: 346px;
-    transition: 1.2s;
-    background-color: #ffff00;
-    border: 1px solid #ffffff;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+  width: 159px;
+  height: 40px;
+  position: absolute;
+  left: 21px;
+  top: 346px;
+  transition: 1.2s;
+  background-color: #ffff00;
+  border: 2px solid #000000;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
-.topbox:hover {
+.firstbox:hover {
+  .hide {
+    visibility: visible;
 
+    transition: 2s;
+    transform: translateY(-130px);
+  }
 
-
-
-     .hide {
-        display: block;
-    }
-    /* animation: open;
-    animation-duration: 60s;
-    animation-delay: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    transform-origin: left;
-    transform: rotate(-10deg) translateY(-2px);
-
- .hide {
-        display: block;
-    } */
-    
-    /* transform: translateX(0px) translateY(-10px); */
-}
-
-/* @keyframes open{
-    0%{
-        transform: rotateX(10deg);
-    }
-55%{
-    transform: translateX(0px) translateY(-10px);
-}
-    100%{
-        transform: rotateY(-30deg);
-    }
-} */
-
-
-/* .yellowbox::before{
-    content:"";
-    width: 181px;
-    height: 41px;
-    position: absolute;
-    left: 12px;
-    top: 336px;
-    background-color: yellow;
-    border:1px solid yellow;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-} */
-.yellowboxright {
-    width: 143px;
-    height: 100px;
-    position: absolute;
-    left: 221px;
-    top: 387px;
-    background-color: #ecec35;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-}
-
-.topboxright {
-    width: 159px;
-    height: 40px;
-    position: absolute;
-    left: 214px;
-    top: 346px;
-    background-color: #ffff00;
-    border: 1px solid #ffffff;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    transition: 1.2s;
-}
-
-.topboxright:hover {
-    animation: open;
-    animation-duration: 60s;
-    animation-delay: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    transform-origin: left;
-    /* transform: rotateX(10deg) rotateY(-30deg); */
-    transform: translateX(0px) translateY(-10px);
+  .topbox {
+    transform: rotate(-10deg) translateY(-8px) rotateX(180deg)
+      translateY(-110px) translateX(-10px);
+    transition: 2s;
+  }
 }
 
 .hide {
-    display: none;
-    position: absolute;
-    left: 90px;
-    bottom: 50px;
-    visibility: hidden;
-    transition: 1.2s;
-    animation: see;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
-    /* transform: translateY(-50px) translateX(1px); */
-    /* z-index: -2; */
-
+  position: absolute;
+  left: 90px;
+  bottom: 50px;
+  visibility: hidden;
+  transition: 2s;
 }
 
-@keyframes see {
-    from {
-        transform: translateY(-50px);
-
-    }
-
-    to {
-        transform: translate(0px);
-    }
+.yellowboxright {
+  width: 143px;
+  height: 100px;
+  position: absolute;
+  left: 221px;
+  top: 387px;
+  border-top: 1px solid #000000;
+  background-color: #ecec35;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  z-index: 1;
 }
 
-.img1 {
-    background-image: url(winter-wonderland-flowers.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    width: 10px;
-    height: 12px;
-    margin: 12px;
-    position: absolute;
-    left: 10px;
-    bottom: 50px;
-}
-
-.img2 {
-    background-image: url(Untitled-1_3.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    width: 12px;
-    height: 12px;
-    margin: 3px;
-    position: absolute;
-    left: 8px;
-    bottom: 36px;
-}
-
-.img3 {
-    background-image: url(luxe-indulgence-tree.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    width: 12px;
-    height: 12px;
-    margin: 3px;
-    position: absolute;
-    left: 25px;
-    bottom: 20px;
-
-}
-
-.img4 {
-    background-image: url(Homemade+gift+ideas+for+everyone.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-    width: 12px;
-    height: 12px;
-    margin: 10px;
-    position: absolute;
-    left: 1px;
-    bottom: -2px;
+.topboxright {
+  width: 159px;
+  height: 40px;
+  position: absolute;
+  left: 211px;
+  top: 346px;
+  background-color: #ffff00;
+  border: 2px solid #000000;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transition: 1.2s;
 }
 
 .hideleft {
-    position: absolute;
-    left: 180px;
-    bottom: 10px;
-    /* visibility: hidden; */
-    transition: 1.2s;
-    animation: seeleft;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
-    /* transform: translateY(-50px); */
-    /* z-index: -2; */
-
+  position: absolute;
+  left: 280px;
+  bottom: 50px;
+  visibility: hidden;
+  transition: 2s;
 }
 
-@keyframes seeleft {
-    from {
-        transform: translateY(-10px);
+.secondbox:hover  {
+  .hideleft {
+    visibility: visible;
+    transition: 2s;
+    transform: translateY(-130px);
+  }
 
+  .topboxright {
+    transition: 2s;
+    transform: rotate(-10deg) translateY(-8px) rotateX(180deg)
+      translateY(-110px) translateX(-10px);
+  }
+}
+
+.img1 {
+  background-image: url(winter-wonderland-flowers.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 30px;
+  height: 25px;
+  margin: 30px;
+  position: absolute;
+  left: -31px;
+  bottom: 20px;
+}
+
+.img2 {
+  background-image: url(Untitled-1_3.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 30px;
+  height: 25px;
+  margin: 30px;
+  position: absolute;
+  left: 18px;
+  bottom: -6px;
+}
+
+.img3 {
+  background-image: url(luxe-indulgence-tree.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+  position: absolute;
+  left: -56px;
+  bottom: -36px;
+}
+
+.img4 {
+  background-image: url(Homemade+gift+ideas+for+everyone.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+  position: absolute;
+  left: -10px;
+  bottom: -69px;
+}
+
+.divs {
+    display: grid;
+    grid-template-columns: repeat(15, 100px);
+    grid-template-rows: repeat(6, 100px);
+    grid-gap: 5px;
+    justify-items: center;
+    animation: fluow 2s infinite;
+}
+
+@keyframes flow {
+    0%, 100% {
+       transform: translateY(50px) ;
+    }
+    50% {
+        transform: translateY(0px);
+    }
+}
+.divs .box {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    animation: twinkle 2s infinite;
+    /* box-shadow: 20px 20px 50px rgb(0, 0, 0); */
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+        background-color: rgb(255, 255, 255);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(0.5);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 20px 10px rgb(255, 255, 255);
+        
     }
 
-    to {
-        transform: translate(0px);
-    }
 }
