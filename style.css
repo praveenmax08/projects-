@@ -308,7 +308,7 @@ p {
     grid-template-rows: repeat(6, 100px);
     grid-gap: 5px;
     justify-items: center;
-    animation: fluow 2s infinite;
+    animation: fow 2s infinite;
 }
 
 @keyframes flow {
